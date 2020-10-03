@@ -17,15 +17,25 @@
     text-align: center;
      /* Should be removed. Only for demonstration */
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profileBox {
+    margin: 5px;
+  }
+
+  .profileImage {
+    height: 400px;
+    width: 400px;
+  }
   
   /* Clear floats after the columns */
   .row {
     display: flex;
     justify-content: center;
-  }
-
-  .menu:hover {
-    color: blue;
   }
 
   .pitch {
