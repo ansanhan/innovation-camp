@@ -11,6 +11,14 @@
     font-size: 40px;
   }
 
+  h3 {
+    color: #22031F;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 50px;
+  }
+
   p {
     color: #22031F;
   }
@@ -32,14 +40,19 @@
 
   #mainpage {
     float: left;
-    padding: 5px;
-    font-size: 30px;
-    font-size: bold;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  #mainpage:hover {
+    border-width: medium;
     background-color: #E1E5F2;
-    font-weight: 900;
-    border-bottom-color: #E1E5F2;
-    border-bottom-width: thin;
-    border-bottom-style: solid;
+    border-color: #E1E5F2;
+    border-radius: 4px;
   }
 
   .navbutton {
@@ -102,11 +115,38 @@
     border-top: solid 1px;
     border-bottom: solid 1px;
     justify-content: center;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .solutionText {
+    margin: 30px;
+    padding: 40px;
+    border-bottom: solid 1px;
+    border-color: white;
+    justify-content: center;
+    float: left;
+  }
+
+  .howText {
+    margin: 30px;
+    padding: 40px;
+    border-bottom: solid 1px;
+    border-color: white;
+    justify-content: center;
+  }
+
+  .appbilde {
+    height: 600px;
+    float: right;
+    margin-left: 30px;
+    margin-top: -60px;
   }
 
   .linje {
     margin: 10px;
     padding: 5px;
+    color: white;
   }
   
   /* Create three equal columns that floats next to each other */
@@ -127,21 +167,24 @@
     margin: 20px;
   }
 
+  
+
   .omOssNavn {
     float: left;
     vertical-align: baseline;
     margin-left: 30px;
+    margin-top: 50px;
   }
 
   .omAndreaTekst {
     float: right;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: -118px;
   }
 
   .omFredrikTekst {
     float: right;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: -98px;
   }
 
@@ -150,6 +193,7 @@
     width: 150px;
     border-radius: 50%;
     float: left;
+    margin-top: 40px;
   }
   
   /* Clear floats after the columns */
