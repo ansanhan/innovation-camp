@@ -43,7 +43,31 @@
     border-color: white;
     border-width: medium;
   }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+  }
+
+  .navbutton:hover {
+    border-width: medium;
+    background-color: #eff2f9;
+    border-color: #eff2f9;
+  }
   
+  .header-front {
+    background-color: #f1f1f1;
+    background-image: url(https://mentornorge.no/volumes/assortedmedia/Bilder/Shutterstock/_960xAUTO_crop_center-center_90_none/shutterstock_1077839504.jpg);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .front-text {
+    color: white;
+  }
+
   .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -52,7 +76,15 @@
   }
 
   .infotext {
+    margin: 30px;
     padding: 40px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+  }
+
+  .linje {
+    margin: 10px;
+    padding: 5px;
   }
   
   /* Create three equal columns that floats next to each other */
