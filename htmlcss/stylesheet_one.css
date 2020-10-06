@@ -129,7 +129,8 @@
   }
 
   .header {
-    background-color: white;
+    background-color: #ffffff91;
+    background-size: cover;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -161,8 +162,6 @@
   .howText {
     margin: 30px;
     padding: 40px;
-    border-bottom: solid 1px;
-    border-color: white;
     justify-content: center;
     float: right;
   }
@@ -248,9 +247,13 @@
   
   /* Style the footer */
   .footer {
-    background-color: white;
-    padding: 10px;
+    background-color: #3a606e;
+    padding: 130px;
     text-align: center;
+  }
+
+  .footertext {
+    color: #E1E5F2;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
