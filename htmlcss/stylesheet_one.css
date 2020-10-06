@@ -9,14 +9,33 @@
   h2 {
     color: #22031F;
     font-size: 40px;
+    text-align: center;
+    font-family: Arial, Verdana, Helvetica;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 40px;
   }
 
   h3 {
     color: #22031F;
     font-size: 30px;
     text-align: center;
-    margin-bottom: -30px;
+    margin-bottom: 0px;
     margin-top: 50px;
+    font-family: Arial, Verdana, Helvetica;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: 30px;
+    float: left;
+    margin: 0px;
+    margin-top: -16px;
+    margin-right: 5px;
+    margin-bottom: -20px;
+    color:#3a606e;
+    font-family: Arial, Verdana, Helvetica;
   }
 
   p {
@@ -80,7 +99,7 @@
   
   .header-front {
     background-color: #E1E5F2;
-    background-image: url(img/Header_Innovationcamp.png);
+    background-image: url(img/header.png);
     background-size: cover;
     text-align: center;
     font-size: 40px;
@@ -111,14 +130,14 @@
   }
 
   .infotext {
-    margin: 30px;
+    margin: 0px;
     padding: 40px;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
     justify-content: center;
-    color: white;
     margin-top: 10px;
+    background-color: #ffffff91;
+    background-size: cover;
   }
+
 
   .solutionText {
     margin: 30px;
@@ -127,6 +146,8 @@
     border-color: white;
     justify-content: center;
     float: left;
+    margin-left: 120px;
+    margin-right: 120px;
   }
 
   .howText {
@@ -135,13 +156,21 @@
     border-bottom: solid 1px;
     border-color: white;
     justify-content: center;
+    float: right;
+  }
+
+  .recycleBilde {
+    max-height: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -60px;
   }
 
   .appbilde {
-    height: 600px;
+    max-height: 600px;
     float: right;
     margin-left: 30px;
-    margin-top: -60px;
+    margin-top: -30px;
   }
 
   .linje {
