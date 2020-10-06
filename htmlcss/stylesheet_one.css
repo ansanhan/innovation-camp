@@ -10,7 +10,7 @@
     color: #22031F;
     font-size: 40px;
     text-align: center;
-    font-family: Arial, Verdana, Helvetica;
+    font-family: Abel, Arial;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 40px;
@@ -22,7 +22,7 @@
     text-align: center;
     margin-bottom: 0px;
     margin-top: 50px;
-    font-family: Arial, Verdana, Helvetica;
+    font-family: Abel, Arial;
     letter-spacing: 3px;
     text-transform: uppercase;
   }
@@ -35,7 +35,7 @@
     margin-right: 5px;
     margin-bottom: -20px;
     color:#3a606e;
-    font-family: Arial, Verdana, Helvetica;
+    font-family: Abel, Arial;
   }
 
   p {
@@ -121,7 +121,7 @@
 
   .front-text {
     color: white;
-    font-family: Optima, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Palatino, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: end;
     position: relative; 
     top: 170px;
