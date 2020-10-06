@@ -46,7 +46,7 @@
     border: none;
     text-align: center;
     box-sizing: border-box;
-    position: fixed;
+    position: absolute;
     font-size: 20px;
     list-style-type: none;
     display: block;
@@ -59,17 +59,21 @@
 
   #mainpage {
     float: left;
+    position: fixed;
+    background-color: black;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border-radius: 4px;
   }
 
   #mainpage:hover {
     border-width: medium;
-    background-color: #E1E5F2;
+    background-color: grey;
+    color: white;
     border-color: #E1E5F2;
     border-radius: 4px;
   }
@@ -88,6 +92,10 @@
     text-decoration: none;
     color: white;
     padding: 20px;
+  }
+
+  li a:hover {
+    color: black;
   }
 
   .navbutton:hover {
