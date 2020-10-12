@@ -20,7 +20,7 @@
     color: #22031F;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: -40px;
     margin-top: 50px;
     font-family: Abel, Arial;
     letter-spacing: 3px;
@@ -38,6 +38,13 @@
     font-family: Abel, Arial;
   }
 
+  h5 {
+    font-size: 25px;
+    color:#E1E5F2;
+    font-family: Abel, Arial;
+  }
+
+
   p {
     color: #22031F;
   }
@@ -51,7 +58,6 @@
     list-style-type: none;
     display: block;
     overflow: hidden;
-    display: inline;
     width: 100%;
     box-shadow: 0px 0px 0px 0px;
     z-index: 1;
@@ -142,9 +148,10 @@
     margin: 0px;
     padding: 40px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -50px;
     background-color: #ffffff91;
     background-size: cover;
+    margin-bottom: -40px;
   }
 
 
@@ -155,29 +162,33 @@
     border-color: white;
     justify-content: center;
     float: left;
-    margin-left: 120px;
+    margin-left: 130px;
     margin-right: 120px;
   }
 
   .howText {
     margin: 30px;
     padding: 40px;
-    justify-content: center;
-    float: right;
+    margin-right: 150px;
+    margin-left: 115px;
+    margin-top: 20px;
   }
 
   .recycleBilde {
     max-height: 300px;
     float: left;
-    margin-left: 30px;
-    margin-top: -60px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 50px;
   }
 
   .appbilde {
     max-height: 600px;
     float: right;
     margin-left: 30px;
-    margin-top: -30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: -25px;
   }
 
   .linje {
@@ -194,15 +205,15 @@
      /* Should be removed. Only for demonstration */
   }
 
-  .container {
+  /* .container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px;
-  }
+  }*/
 
-  .profileBox {
+  /*.profileBox {
     margin: 20px;
-  }
+  } */
 
   
 
@@ -226,8 +237,8 @@
   }
 
   .profileImage {
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     float: left;
     margin-top: 40px;
@@ -249,7 +260,21 @@
   .footer {
     background-color: #3a606e;
     padding: 130px;
+    margin-top: 80px;
+  }
+
+  .sourcetitle {
+    color: #E1E5F2;
+    justify-content: left;
+  }
+
+  .contacttitle {
+    color: #E1E5F2;
     text-align: center;
+  }
+
+  .followtitle {
+    color: #E1E5F2;
   }
 
   .footertext {
