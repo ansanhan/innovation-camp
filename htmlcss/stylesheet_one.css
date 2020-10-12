@@ -44,6 +44,11 @@
     font-family: Abel, Arial;
   }
 
+  h6 {
+    font-size: 20px;
+    color:#E1E5F2;
+    font-family: Abel, Arial;
+  }
 
   p {
     color: #22031F;
@@ -129,9 +134,9 @@
     color: white;
     font-family: Palatino, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: end;
-    position: relative; 
-    top: 170px;
-    right: 200px;
+    margin-top: 170px;
+    margin-right: 200px;
+    justify-content:flex;
   }
 
   .header {
@@ -153,7 +158,6 @@
     background-size: cover;
     margin-bottom: -40px;
   }
-
 
   .solutionText {
     margin: 30px;
@@ -180,6 +184,7 @@
     margin-top: 60px;
     margin-bottom: 50px;
     margin-right: 50px;
+    display: flex;
   }
 
   .appbilde {
@@ -189,6 +194,7 @@
     margin-top: 10px;
     margin-bottom: 15px;
     margin-right: -25px;
+    display: flex;
   }
 
   .linje {
@@ -196,58 +202,66 @@
     padding: 5px;
     color: white;
   }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 100%;
-    text-align: center;
-     /* Should be removed. Only for demonstration */
+
+  .navnAndrea {
+    color: #E1E5F2;
+    display: inline-block;
+    margin-left: -15px;
+    margin-right: auto;
+    margin-top: -130px;
   }
 
-  /* .container {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 15px;
-  }*/
+  .navnFredrik {
+    color: #E1E5F2;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: -160px;
+    padding-left: 20px;
+  }
 
-  /*.profileBox {
-    margin: 20px;
-  } */
-
-  
-
-  .omOssNavn {
-    float: left;
-    vertical-align: baseline;
-    margin-left: 30px;
-    margin-top: 50px;
+  #navn {
+    text-align: center;
+    margin-bottom: -30px;
   }
 
   .omAndreaTekst {
-    float: right;
-    margin-top: 80px;
-    margin-left: -118px;
+    color: #E1E5F2;
+    display: inline-block;
+    margin-left: -30px;
+    margin-right: auto;
+    margin-top: -130px;
+    font-size: 13px;
   }
 
   .omFredrikTekst {
-    float: right;
-    margin-top: 80px;
-    margin-left: -98px;
+    color: #E1E5F2;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: -70px;
+    padding-left: 35px;
+    font-size: 13px;
+  }
+
+  #om {
+    text-align: center;
   }
 
   .profileImage {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    float: left;
-    margin-top: 40px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -130px;
+    padding: 70px;
+    margin-bottom: -60px;
   }
-  
-  /* Clear floats after the columns */
-  .row {
-    display: flex;
-    justify-content: center;
+
+  #images {
+    text-align: center;
   }
 
   .pitch {
@@ -256,32 +270,83 @@
     margin: 40px;
   }
   
-  /* Style the footer */
   .footer {
     background-color: #3a606e;
     padding: 130px;
-    margin-top: 80px;
   }
 
   .sourcetitle {
     color: #E1E5F2;
-    justify-content: left;
+    text-align: left;
+    margin-top: -110px;
+    
   }
 
   .contacttitle {
     color: #E1E5F2;
     text-align: center;
+    margin-top: -80px;
+    
+  }
+
+  #border1 {
+    border-left: solid;
+    border-color: #22031f71;
+    height: 230px;
+    border-width: 1px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -110px;
+  }
+
+  #border2 {
+    border-left: solid;
+    border-color: #22031f71;
+    height: 230px;
+    border-width: 1px;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: -220px;
   }
 
   .followtitle {
     color: #E1E5F2;
+    text-align: right;
+    margin-top: -80px;
+  }
+
+  .sourcetext {
+    color: #E1E5F2;
+    margin-top: -30px;
+  }
+
+  .contacttext {
+    color: #E1E5F2;
+  }
+
+  .followtext {
+    color: #E1E5F2;
+    margin-top: -180px;
+  }
+
+  #follow {
+    text-align: right;
   }
 
   .footertext {
     color: #E1E5F2;
   }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+  .footer a {
+    color: #ce8a5e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer a:hover {
+    color: #E1E5F2;
+  }
+
   @media (max-width: 600px) {
     .column {
       width: 100%;
